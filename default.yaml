@@ -23,6 +23,7 @@ schema_list:
   # - schema: hangyl_hanja
   # - schema: hangeul
   - schema: hangeul2set
+  - schema: hangeul_gugeoui_romaja
 
 
 # 菜单
