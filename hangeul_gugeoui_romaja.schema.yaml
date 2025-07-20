@@ -250,12 +250,31 @@ editor:
 
 # 拼写设定
 speller:
-  alphabet: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA;`
-  initials: zyxwvutsrqponmlkjihgfedcbaZYXWVUTSRQPONMLKJIHGFEDCBA
-  delimiter: " "
+  alphabet: zyxwvutsrqponmlkjihgfedcba'
+  initials: zyxwvutsrqponmlkjihgfedcba
+  delimiter: "'"
   algebra:
-    - xform/d/ⓠ/
-    - xform/d/ⓝⓖ/
+    - xform/mqo/QO/
+    - xform/mqp/QP/
+    - xform/mwo/WO/
+    - xform/mwp/WP/
+    - xform/meo/EO/
+    - xform/mep/EP/
+    - xform/mro/RO/
+    - xform/mrp/RP/
+    - xform/mto/TO/
+    - xform/mtp/TP/
+
+    - xform/qq/Q/
+    - xform/ww/W/
+    - xform/ee/E/
+    - xform/rr/R/
+    - xform/tt/T/
+    - xform/oo/O/
+    - xform/pp/P/
+
+    - xform/^d//
+    - xform/d$/ⓝⓖ/
     - xform/g/ⓗ/
 
     - xform/r/ⓖ/
@@ -266,8 +285,8 @@ speller:
     - xform/e/ⓓ/
     - xform/E/ⓣⓣ/
     - xform/s/ⓝ/
-    - xform/f/ⓡ/
-    - xform/f/ⓛ/
+    - xform/^f/ⓡ/
+    - xform/f$/ⓛ/
 
     - xform/v/ⓟ/
     - xform/Q/ⓟⓟ/
@@ -301,6 +320,14 @@ speller:
     - xform/b/ⓨⓤ/
     - xform/P/ⓨⓔ/
     - xform/O/ⓨⓔⓐ/
+
+    - xform/hk/ⓦⓐ/
+    - xform/ho/ⓦⓐⓔ/
+    - xform/hl/ⓞⓔ/
+    - xform/nj/ⓦⓞ/
+    - xform/np/ⓦⓔ/
+    - xform/nl/ⓦⓘ/
+    - xform/ml/ⓤⓘ/
 
     - xlit/ⓐⓑⓒⓓⓔⓕⓖⓗⓘⓙⓚⓛⓜⓝⓞⓟⓠⓡⓢⓣⓤⓥⓦⓧⓨⓩ/abcdefghijklmnopqrstuvwxyz/
     # - xform/b/ⓠ/
